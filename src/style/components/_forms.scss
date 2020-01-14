@@ -1,0 +1,41 @@
+//Input
+
+.form-control {
+    border: transparent;
+    font-family: "Din";
+    height: 40px;
+
+    &::placeholder {
+        color: var(--grey-4);
+    }
+}
+.form-control-sm {
+    height: 32px;
+}
+.form-control-lg {
+    height: 48px;
+}
+label {
+    display: flex;
+    color: var(--grey-5);
+    font-weight: 500;
+}
+small {
+    text-align: right;
+}
+
+//Buttons
+.btn {
+    font-size: 14px;
+    padding: 0 1rem;
+    line-height: 40px;
+    border: none;
+}
+.btn-lg {
+    font-size: 16px;
+    line-height: 48px;
+}
+.btn-sm {
+    font-size: 12px;
+    line-height: 32px;
+}

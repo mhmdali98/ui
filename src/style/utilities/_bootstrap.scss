@@ -1,0 +1,39 @@
+$primary: #0530c7;
+$secondary: #1e0072;
+$danger: #e71212;
+$light: #f1f3f7;
+$dark: #373d57;
+$success: #33c15d;
+$grey-5: #4c5270;
+$grey-4: #687095;
+$grey-3: #a2a9c4;
+$grey-2: #d0d4e7;
+$grey-1: #ebeef3;
+
+$sidebar: $secondary;
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "grey-5": $grey-5,
+    "grey-4": $grey-4,
+    "grey-3": $grey-3,
+    "grey-2": $grey-2,
+    "grey-1": $grey-1,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "success": $success,
+    "sidebar": $sidebar
+);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-family: $font_header;
+    font-weight: 600;
+}
+@import "node_modules/bootstrap/scss/bootstrap";

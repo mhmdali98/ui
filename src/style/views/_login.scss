@@ -1,0 +1,33 @@
+#login {
+    height: 100vh;
+    background: var(--light-100);
+    display: flex;
+    .login__content {
+        display: flex;
+        width: 900px;
+        height: 500px;
+        background: #fff;
+        margin: auto;
+        box-shadow: 0px 10px 60px rgba($gray-2, 0.5);
+        border: 1px solid #eee;
+    }
+}
+
+#login .login__left {
+    flex: 2;
+    display: flex;
+
+    position: relative;
+    h4 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .left__content {
+        width: 80%;
+        margin: auto;
+    }
+}
+#login .login__right {
+    background: url("~@/assets/img/login_bg.jpg");
+    flex: 1;
+}

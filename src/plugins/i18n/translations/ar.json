@@ -1,0 +1,50 @@
+{
+    "$": {
+        "code": "ar",
+        "display": "العربية",
+        "dir": "rtl",
+        "title": " العقد الالكتروني"
+    },
+    "$vuetify": {
+        "close": "غلق",
+        "dataIterator": {
+            "pageText": "{0}-{1} من {2}",
+            "noResultsText": "لا توجد سجلات مطابقة",
+            "loadingText": "تحميل العناصر ..."
+        },
+        "dataTable": {
+            "itemsPerPageText": "الصفوف لكل صفحة:",
+            "ariaLabel": {
+                "sortDescending": ": فرز تنازلي. تفعيل لإزالة الفرز.",
+                "sortAscending": ": فرز تصاعدي. تفعيل لفرز تنازلي.",
+                "sortNone": ": غير مصنفة. تفعيل لفرز تصاعدي."
+            }
+        },
+        "dataFooter": {
+            "itemsPerPageText": "العناصر لكل صفحة:",
+            "itemsPerPageAll": "الكل",
+            "nextPage": "الصفحة التالية",
+            "prevPage": "الصفحة السابقة",
+            "firstPage": "الصفحة الأولى",
+            "lastPage": "الصفحة الأخيرة"
+        },
+        "datePicker": {
+            "itemsSelected": "{0} المحدد"
+        },
+        "noDataText": "لا توجد بيانات متاحة",
+        "carousel": {
+            "prev": "الصورة السابقة",
+            "next": "البصري التالي"
+        },
+        "calendar": {
+            "moreEvents": "{0} أكثر من"
+        },
+        "fileInput": {
+            "counter": "{0} ملف",
+            "counterSize": "{0} ملف ({1} في المجموع)"
+        }
+    },
+    "merchant_platform": "منصة العقد الالكتروني",
+    "enter_to_the_platform": "الدخول للمنصة",
+    "about_platform": "عن المنصة"
+}

@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "e-contract";
+  src:url("fonts/e-contract.eot");
+  src:url("fonts/e-contract.eot?#iefix") format("embedded-opentype"),
+    url("fonts/e-contract.woff") format("woff"),
+    url("fonts/e-contract.ttf") format("truetype"),
+    url("fonts/e-contract.svg#e-contract") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "e-contract" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "e-contract" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-009-house:before {
+  content: "\61";
+}
+.icon-008-home:before {
+  content: "\62";
+}
+.icon-007-employee:before {
+  content: "\63";
+}
+.icon-006-group:before {
+  content: "\64";
+}
+.icon-005-team:before {
+  content: "\65";
+}
+.icon-004-contract:before {
+  content: "\66";
+}
+.icon-003-job-offer:before {
+  content: "\67";
+}
+.icon-002-certificate:before {
+  content: "\68";
+}
+.icon-001-policy:before {
+  content: "\69";
+}
+.icon-plus-round:before {
+  content: "\6a";
+}
+.icon-android-add:before {
+  content: "\6b";
+}
+.icon-android-add-circle:before {
+  content: "\6c";
+}
+.icon-plus:before {
+  content: "\6d";
+}
+.icon-plus-circled:before {
+  content: "\6e";
+}
+.icon-ios-arrow-back:before {
+  content: "\6f";
+}
+.icon-chevron-left:before {
+  content: "\70";
+}
+.icon-chevron-right:before {
+  content: "\71";
+}
+.icon-ios-arrow-forward:before {
+  content: "\72";
+}
+.icon-ios-bell:before {
+  content: "\73";
+}
+.icon-ios-bell-outline:before {
+  content: "\74";
+}
+.icon-navicon-round:before {
+  content: "\75";
+}
+.icon-navicon:before {
+  content: "\76";
+}
+.icon-grid:before {
+  content: "\77";
+}
+.icon-android-more-horizontal:before {
+  content: "\78";
+}
+.icon-android-more-vertical:before {
+  content: "\79";
+}
+.icon-home-house-streamline:before {
+  content: "\7a";
+}
+.icon-receipt-shopping-streamline:before {
+  content: "\41";
+}
+.icon-man-people-streamline-user:before {
+  content: "\42";
+}
+.icon-dashboard-speed-streamline:before {
+  content: "\43";
+}
+.icon-link-streamline:before {
+  content: "\44";
+}
+.icon-settings-streamline-1:before {
+  content: "\45";
+}
+.icon-speech-streamline-talk-user:before {
+  content: "\46";
+}
+.icon-like-love-streamline:before {
+  content: "\47";
+}
+.icon-brush-paint-streamline:before {
+  content: "\48";
+}
+.icon-user:before {
+  content: "\49";
+}
+.icon-banknote:before {
+  content: "\4a";
+}
+.icon-chevron-down:before {
+  content: "\4b";
+}
+.icon-caret-down-two:before {
+  content: "\4c";
+}
+.icon-angle-down:before {
+  content: "\4d";
+}
+.icon-chevron-up:before {
+  content: "\4e";
+}
+.icon-angle-up:before {
+  content: "\4f";
+}
+.icon-caret-up-two:before {
+  content: "\50";
+}
+.icon-check:before {
+  content: "\51";
+}
+.icon-check-circle:before {
+  content: "\52";
+}
+.icon-chrome:before {
+  content: "\53";
+}
+.icon-circle:before {
+  content: "\54";
+}
+.icon-search:before {
+  content: "\55";
+}
+.icon-users:before {
+  content: "\56";
+}
+.icon-male:before {
+  content: "\57";
+}
+.icon-pencil-square-o:before {
+  content: "\58";
+}
