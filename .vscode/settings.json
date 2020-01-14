@@ -1,0 +1,35 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        ".browserslistrc": true,
+        ".gitignore": true,
+        "babel.config.js": true,
+        "package-lock.json": true,
+        "postcss.config.js": true,
+        "jsconfig.json": true,
+        ".gitattributes": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "path-intellisense.mappings": {
+        "@": "${workspaceRoot}/src",
+        "~@": "${workspaceRoot}/src"
+    },
+    "todohighlight.include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx", "**/*.html", "**/*.php", "**/*.css", "**/*.scss", "**/*.vue"],
+    "todo-tree.rootFolder": "${workspaceFolder}/src/",
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "prettier.printWidth": 150,
+    "prettier.tabWidth": 4,
+    "prettier.proseWrap": "never",
+    "prettier.bracketSpacing": true,
+    "vueBeautify.isRootIndent": true,
+    "vue-i18n-ally.localesPaths": "src/plugins/i18n/translations",
+    "vue-i18n-ally.keystyle": "nested",
+    "todo-tree.general.rootFolder": "${workspaceFolder}/src/",
+    "editor.fontSize": 12
+}
